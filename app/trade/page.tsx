@@ -95,7 +95,7 @@ export default function Trade() {
     <div>
     <div className='fixed right-[28px]  bottom-[217px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>${tableData[0]?humanize(tableData[0].liq_price):'1023'}</div>
     <div className='fixed right-[28px]  bottom-[187px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>${tableData[0]?humanize(tableData[0].balance * 0.01):"1023"}</div>
-    <div className='fixed right-[28px]  bottom-[160px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>${tableData[0]?humanize(tableData[0].leverage):'1023'}</div>
+    <div className='fixed right-[28px]  bottom-[160px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>{tableData[0]?humanize(tableData[0].leverage):'1023'}×</div>
     </div>
     :null}
     </div>
