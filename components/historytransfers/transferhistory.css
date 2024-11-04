@@ -1,0 +1,92 @@
+.positiondata { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 400px;
+    flex-direction: row;
+    align-items: stretch;
+    color: #f7f7f7;
+    margin-top:5px;
+    border-bottom: 1px solid #2d2d3d;
+    padding-bottom: 5px;
+}
+
+.w { 
+    width: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.action { 
+    flex:1 1 0;
+    font-size: 14px;
+}
+
+.status {
+    font-size: 14px;
+    color:rgb(111, 110, 132);
+}
+.amount-transfer {
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-right: 260px;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.transaction { 
+    font-size: 14px;
+    text-align: right;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    color: rgb(111, 110, 132);
+}
+.transaction-address-icon{
+    display: flex;
+    flex-direction: row;
+}
+.transaction-address{
+    margin-right: 3px;
+    cursor: pointer;
+}
+.transaction-address:hover{
+    color:#f7f7f7;
+}
+.fee{
+    flex:0 0 1;
+    font-size: 15px;
+    text-align: right;
+    color: rgb(111, 110, 132);
+    letter-spacing: 1px;
+}
+
+.transfer-content{
+    display: flex;
+    font-size: 15px;
+    color: rgb(111, 110, 132);
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.transfer-content-content{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.transfer-content-link{
+    font-size: 16px;
+    color: #f7f7f7;
+    margin-right: 3px;
+}
+.transfer-content-svg{
+    font-size: 15px;
+    color: #f7f7f7;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    cursor: pointer;
+}

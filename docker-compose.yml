@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  xyfrontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: xyfrontend
+    ports:
+      - '3000:3000'
+    restart: always
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next

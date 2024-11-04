@@ -1,0 +1,114 @@
+.share-position-noposition {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #f7f7f7;
+    margin-bottom: 25px;
+}
+.share-position {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #f7f7f7;
+}
+
+.buttonshare {
+    cursor: pointer;
+}
+
+.h2-position{
+    flex: 1 0 0;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing:0.5px;
+    color: #f7f7f7;
+}
+
+.positionsheader { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 400px;
+    flex-direction: row;
+    background-color: #171722;
+    align-items: stretch;
+    color: #6f6e84;
+    border: 1px solid #2d2d3d;
+    margin-top:10px;
+}
+/* .positionsheader>*{
+    flex:1 1 0
+} */
+
+.titlemarket { 
+    flex:1 1 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.titlesize-position { 
+    flex:1 1 0;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    margin-right: 382px;
+}
+.titleUnrealized { 
+    flex:1 1 0;
+    font-size: 14px;
+    padding-right: 110px;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.titleLiq-position { 
+    flex: 0 0 1;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.titleside{
+    font-size: 14px;
+}
+
+.titleleverage{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+}
+.titleRealized{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+}
+.titleoracle{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+}
