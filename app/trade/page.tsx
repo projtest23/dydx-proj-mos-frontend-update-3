@@ -87,15 +87,16 @@ export default function Trade() {
     </div>
     {tableData[0].size?
     <div>
-    <div className='fixed right-[16px] top-[145px] z-50 text-[#dbd9d9] bg-[#181825] text-[13px]'>${tableData[0]?humanize(tableData[0].balance):'1023'}</div>
-    <div className='fixed right-[16px] top-[175px] z-50 text-[#dbd9d9] bg-[#181825] text-[13px]'>${tableData[0]?humanize(tableData[0].balance_available):'1023'}</div>
+    <div className='fixed right-[16px] top-[85px] z-50 text-[#dbd9d9] bg-[#212124] text-[13px]'>${tableData[0]?humanize(tableData[0].balance):'1023'}</div>
+    <div className='fixed right-[16px] top-[110px] z-50 text-[#dbd9d9] bg-[#212124] text-[13px]'>${tableData[0]?humanize(tableData[0].balance_available):'1023'}</div>
+    <div className='fixed right-[16px] top-[135px] z-50 text-[#dbd9d9] bg-[#212124] text-[13px] w-12 text-right'>%{tableData[0]?humanize(tableData[0].margin_used):'1023'}</div>
     </div>
     :null}
     {tableData[0].size?
     <div>
-    <div className='fixed right-[28px]  bottom-[217px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>${tableData[0]?humanize(tableData[0].liq_price):'1023'}</div>
-    <div className='fixed right-[28px]  bottom-[187px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>${tableData[0]?humanize(tableData[0].balance * 0.01):"1023"}</div>
-    <div className='fixed right-[28px]  bottom-[160px] z-50 text-[#dbd9d9] bg-[#101018] text-[14px]'>{tableData[0]?humanize(tableData[0].leverage):'1023'}×</div>
+    <div className='fixed right-[28px]  bottom-[217px] z-50 text-[#dbd9d9] bg-[#1B1B1D] text-[14px]'>${tableData[0]?humanize(tableData[0].liq_price):'1023'}</div>
+    <div className='fixed right-[28px]  bottom-[187px] z-50 text-[#dbd9d9] bg-[#1B1B1D] text-[14px]'>${tableData[0]?humanize(tableData[0].balance * 0.01):"1023"}</div>
+    <div className='fixed right-[28px]  bottom-[160px] z-50 text-[#dbd9d9] bg-[#1B1B1D] text-[14px]'>{tableData[0]?humanize(tableData[0].leverage):'1023'}×</div>
     </div>
     :null}
     </div>
