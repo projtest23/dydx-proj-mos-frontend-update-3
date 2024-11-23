@@ -34,6 +34,7 @@ export default function Trade() {
         margin_usage: 0.3,
         balance: 100000.0,
         balance_available: 100000.0,
+        margin_used:0,
         account_leverage: 15.0,
         uniswap: true,
         wallet: '102452',
