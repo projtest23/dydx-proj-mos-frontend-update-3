@@ -46,7 +46,7 @@ const humanize = require('humanize-number')
           jwt = 'Bearer '+ access
       }
       try{
-        const response = await fetch("http://45.195.250.168/dydx/api/v1/positions/",{
+        const response = await fetch("https://mossaeed.darkube.app/dydx/api/v1/positions/",{
           cache:'no-store',
           headers:{
               'Authorization': jwt,
