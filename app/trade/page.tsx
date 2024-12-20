@@ -77,7 +77,7 @@ export default function Trade() {
     }, [access,router])
     return (
     <div>
-    <iframe src="https://dydx.trade/trade/ETH-USD"  className='iframe'></iframe>
+    <iframe src="https://dydx.trade/trade"  className='iframe'></iframe>
 
     {/* // wallet section */}
 
